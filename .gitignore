@@ -1,0 +1,24 @@
+# Python virtual environment
+myenv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# Other common ignores
+*.log
+node_modules/
+dist/
+build/
