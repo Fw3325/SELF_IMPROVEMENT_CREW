@@ -1,0 +1,14 @@
+Interview Questions and Talking Points for Yiran Zhao based on his resume and the job requirements at Amazon:
+
+1. Can you elaborate on your experience in developing advanced machine learning models for personalized experiences and recommendations at Fidelity Investment and how it aligns with the key responsibilities of the Data Scientist role at Amazon?
+2. How have you applied NLP techniques, such as domain-specific word embedding and NER, in your previous role at Fannie Mae, and how do you see these skills contributing to the research areas at Amazon, especially in machine learning and computer vision?
+3. Your resume mentions successful utilization of AI technologies like prompt engineering, RAG, and agents. Could you provide examples of how you have used these technologies to address complex business challenges and automate processes, and how would you leverage them at Amazon?
+4. With your extensive project management expertise, how do you plan to define key research directions and persuade teams to adopt long-term strategies at Amazon, ensuring that research is effectively translated into practice?
+5. Given your experience in mentorship and leadership development, how would you approach organizational planning, hiring, and mentorship in the context of Amazon's commitment to scientific innovation and customer-centricity?
+6. Can you discuss a specific project where you had to develop scalable science and engineering solutions, highlighting your technical fearlessness and passion for building such solutions, and how this experience prepares you for the challenges at Amazon?
+7. How do you see your depth and breadth in state-of-the-art machine learning technologies contributing to Amazon's focus on research areas like sustainability, robotics, and quantum computing?
+8. Considering your strong algorithm development experience, could you walk us through a project where you had to innovate or adopt new machine learning techniques, and how you ensured rigorous experimentation and publication of results?
+9. How do you approach the integration of AI technologies like PyTorch, TensorFlow, and Apache Spark in your projects, and how would you leverage these technical skills to drive impactful research at Amazon?
+10. In what ways have you demonstrated your ability to lead senior scientists and engineers in previous roles, and how would you apply this experience in the context of Amazon's emphasis on leadership development and mentorship?
+
+By preparing responses to these questions and incorporating key points from your resume and job requirements, you will be well-equipped to showcase your qualifications and experiences effectively during the interview process. Good luck!
