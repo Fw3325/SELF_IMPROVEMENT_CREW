@@ -1,3 +1,15 @@
+import sys
+import sqlite3
+
+# Check SQLite version and replace if needed
+sqlite_version = sqlite3.sqlite_version_info
+if sqlite_version < (3, 35, 0):
+    try:
+        import pysqlite3
+        sys.modules['sqlite3'] = pysqlite3
+    except ImportError:
+        pass
+
 from crewai import Crew, Task, Agent
 # from crewai_tools import ScrapeWebsiteTool, DOCXSearchTool
 from langchain.chat_models import ChatOpenAI
