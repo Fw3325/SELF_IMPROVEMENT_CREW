@@ -1,1 +1,1 @@
-pysqlite3-binary
+build-essential
