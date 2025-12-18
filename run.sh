@@ -19,8 +19,8 @@ REGION=$(aws configure get region || echo "us-east-1")
 echo "Account ID: $ACCOUNT_ID"
 echo "Region: $REGION"
 
-Step 1: Create ECR repository
-echo "Creating ECR repository..."
+Step 1: Create ECS repository
+echo "Creating ECS repository..."
 aws ecr create-repository --repository-name $APP_NAME --region $REGION 2>/dev/null || echo "Repository already exists"
 
 # Step 2: Build and push Docker image
@@ -30,7 +30,7 @@ docker build -t $APP_NAME .
 echo "Tagging image for ECR..."
 docker tag $APP_NAME:latest ${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/$APP_NAME:latest
 
-echo "Logging into ECR..."
+echo "Logging into ECS..."
 aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin ${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com
 
 echo "Pushing image to ECR..."
