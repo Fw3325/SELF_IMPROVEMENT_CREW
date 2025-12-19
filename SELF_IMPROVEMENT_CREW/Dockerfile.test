@@ -1,0 +1,11 @@
+FROM nginx:alpine
+COPY <<EOF /usr/share/nginx/html/index.html
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Course Rec Demo - Test Page</h1>
+    <p>If you see this, ECS is working!</p>
+</body>
+</html>
+EOF
+EXPOSE 80
